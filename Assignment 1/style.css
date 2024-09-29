@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('hiking.jpg');
+    background-size: cover;
+    color: #ffffff;
+}
+
+header {
+    background-color: rgba(0, 121, 107, 0.8);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0; 
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(0, 121, 107, 0.8);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    margin: 20px; 
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+.grid-item img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.item-description {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+
+#media img {
+    max-width: 300px; 
+    max-height: 200px; 
+    width: auto; 
+    height: auto; 
+    margin: 10px 0; 
+    border-radius: 8px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ffffff; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #ffffff; 
+}
